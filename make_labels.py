@@ -4,7 +4,7 @@ import numpy as np
 cv2.namedWindow('vid', cv2.WINDOW_NORMAL)
 
 for i in xrange(1, 3845):
-	fn = '../training_data/all/output_' + '{:04d}'.format(i) + '.png'
+	fn = '../res/training_data/all/output_' + '{:04d}'.format(i) + '.png'
 
 	img = cv2.imread(fn, cv2.IMREAD_COLOR)
 
