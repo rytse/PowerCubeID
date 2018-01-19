@@ -1,6 +1,7 @@
 *.mp4
 *.png
 training.record
+model/train
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
